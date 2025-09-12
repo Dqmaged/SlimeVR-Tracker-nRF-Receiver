@@ -8,3 +8,9 @@ manifest:
       url: https://github.com/nrfconnect/sdk-nrf.git
       revision: v3.1-branch
       import: true
+      
+    # SlimeVR-Tracker-nRF-Receiver
+    - name: SlimeVR-Tracker-nRF-Receiver
+      url: https://github.com/Dqmaged/SlimeVR-Tracker-nRF-Receiver.git
+      path: SlimeVR-Tracker-nRF-Receiver
+      revision: master

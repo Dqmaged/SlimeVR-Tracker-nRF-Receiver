@@ -88,12 +88,7 @@ jobs:
           wget -q https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.2/zephyr-sdk-0.17.2_linux-x86_64_minimal.tar.xz
           tar xf zephyr-sdk-0.17.2_linux-x86_64_minimal.tar.xz -C ~/
           ~/zephyr-sdk-0.17.2/setup.sh -c -t arm-zephyr-eabi
-
-      - name: 📂 Cloning Triggered Repository/Branch
-        run: |
-          cd zephyr-workspace
-          git clone --single-branch --recurse-submodules -b $GITHUB_REF_NAME $GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git
-
+          
       - name: ♻️ Initialize Zephyr Workspace
         # Set up the Zephyr workspace and install the Python dependencies
         run: |
