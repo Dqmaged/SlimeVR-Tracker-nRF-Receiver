@@ -36,7 +36,7 @@
 // How many packets to receive from one ID in a second before we consider it valid
 #define DETECTION_THRESHOLD 25
 // How many abnormal rotations to receive before we consider it valid
-#define RESET_THRESHOLD 75
+#define RESET_THRESHOLD 0
 // Invalid rotation threshold in radians
 #define ROTATION_THRESHOLD 0.52f
 
