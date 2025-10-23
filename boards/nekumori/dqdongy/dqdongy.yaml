@@ -1,24 +1,14 @@
 # Copyright (c) 2024 Nordic Semiconductor ASA
 # SPDX-License-Identifier: Apache-2.0
 
-identifier: dqdongy/nrf52833
+identifier: dqdongy
 name: dqdongy
+vendor: nekumori
 type: mcu
 arch: arm
-ram: 256
-flash: 1024
+ram: 128
+flash: 512
 toolchain:
   - zephyr
   - gnuarmemb
   - xtools
-supported:
-  - adc
-  - usb_device
-  - ble
-  - pwm
-  - spi
-  - watchdog
-  - counter
-  - netif:openthread
-  - gpio
-vendor: nekumori
